@@ -1,4 +1,4 @@
-import {formatCurrency} from '../scripts/utils/money.js';
+import {formatCurrency} from '../../scripts/utils/money.js';
 
 console.log('test suite: format currency');
 const basicTest = (formatCurrency(2095) === '20.95') ? 'passed' : 'failed';
